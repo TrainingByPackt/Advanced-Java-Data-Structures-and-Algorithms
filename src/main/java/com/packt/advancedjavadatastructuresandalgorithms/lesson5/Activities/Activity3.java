@@ -31,7 +31,6 @@ public class Activity3 {
             e.printStackTrace();
         }
         
-        System.out.println(resultArrayA);
         int sumA = resultArrayA.stream().mapToInt(Integer::intValue).sum();
         int sumB = resultArrayB.stream().mapToInt(Integer::intValue).sum();
         
